@@ -1,0 +1,14 @@
+.blog-list {
+  width: 70%;
+  margin: auto;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .blog-list {
+    width: 95%;
+  }
+}
